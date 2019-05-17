@@ -12,7 +12,8 @@ if (url.indexOf(path) != -1) {
     obj["data"]["to"] = 7262649741721;
     obj["data"]["from"] = 1543574359721;
  }
- 
+ JSON.stringify(obj)
+
  // Made by Meeta (网易漫画）
  // https?:\/\/api\.mh\.163.com\/getUserProfile
  // hostname = api.mh.163.com
