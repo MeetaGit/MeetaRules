@@ -12,7 +12,7 @@ if (url.indexOf(path1) != -1){
 if (url.indexOf(path2) != -1){
   var obj = JSON.parse(body);
   obj.content["img"] = "http://ww1.sinaimg.cn/large/0076dY5Wgy1g36mmbdvv7j30gf0zkwf2.jpg";
-  obj.content["url"] = "";
+  obj.content["url"] = "https://raw.githubusercontent.com/MeetaGit/MeetaRules/master/README.md";
   result = JSON.stringify(obj);
 }
   
