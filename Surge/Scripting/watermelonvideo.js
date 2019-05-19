@@ -3,7 +3,9 @@ let path1 = "/api/user/get";
 let path2 = "/api/user/getAdv";
 if (url.indexOf(path1) != -1){
   var obj = JSON.parse(body);
+  obj.content["userName"] = "Meeta123456";
   obj.content["level"] = "5";
+  obj.content["nickName"] = "Mee****456";
   obj.content["vipType"] = "1";
   result = JSON.stringify(obj);
 }
