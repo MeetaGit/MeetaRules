@@ -1,12 +1,12 @@
 # MeetaRules
-## [点击查看TG频道](https://t.me/meetaclub)
-## [点击加入TG交流群](https://t.me/joinchat/H0wr10TATOAQplouUXYNrQ)
+## [查看TG频道](https://t.me/meetaclub)
+## [TG交流群](https://t.me/joinchat/H0wr10TATOAQplouUXYNrQ)
 
 ***
 
 # Surgescript 
 
-#Surgescript
+
 
 //  M(爱美剧下载:app.meiju2018.co)
 http-response https?:\/\/mjappaz.yefu365.com\/index.php\/app\/ios\/ script-path= https://meetagit.github.io/MeetaRules/Surge/Scripting/aimeiju.js
