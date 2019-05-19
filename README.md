@@ -12,7 +12,7 @@ http-response https?:\/\/api\.gkaorlz\.com\/api\/user\/get script-path=https://m
 
 ***
 
-//  M(爱美剧下载:app.meiju2018.co)
+//  M(爱美剧:app.meiju2018.co)
 http-response https?:\/\/mjappaz.yefu365.com\/index.php\/app\/ios\/ script-path= https://meetagit.github.io/MeetaRules/Surge/Scripting/aimeiju.js
 
 ***
