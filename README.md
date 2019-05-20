@@ -7,6 +7,7 @@
 # Surgescript 
 
 //M(bilibili)
+
 http-response https?:\/\/app\.bilibili\.com\/x\/ script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/bili.js
 
 ***
