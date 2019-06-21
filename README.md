@@ -14,12 +14,12 @@ http-response https?:\/\/app\.bilibili\.com\/x\/ script-path=https://meetagit.gi
 
 
 // M(西瓜视频:www.xg1.app)
-http-response https?:\/\/api\.gkaorlz\.com\/api\/user\/get script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/watermelonvideo.js
+http-response https?:\/\/api\.gkaorlz\.com\/api\/user\/get script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/watermelonvideo.js,requires-body=true
 
 ***
 
 //  M(爱美剧:app.meiju2018.com)
-http-response https?:\/\/mjappaz.yefu365.com\/index.php\/app\/ios\/ script-path= https://meetagit.github.io/MeetaRules/Surge/Scripting/aimeiju.js
+http-response https?:\/\/mjappaz.yefu365.com\/index.php\/app\/ios\/ script-path= https://meetagit.github.io/MeetaRules/Surge/Scripting/aimeiju.js,requires-body=true
 
 ***
 
