@@ -1,7 +1,7 @@
 var body = $response.body;
 var url = $request.url;
-const path1 = "/AdService/kaiping/";
-const path2 = "/vip/v2/user/vip";
+const path1 = "kuwo.cn/AdService/kaiping/";
+const path2 = "kuwo.cn/vip/v2/user/vip";
 if (url.indexOf(path1) != -1){
 	let obj = JSON.parse(body);
 	obj.url = "http://ww1.sinaimg.cn/large/0076dY5Wgy1g36mmbdvv7j30gf0zkwf2.jpg";
