@@ -6,9 +6,12 @@
 
 # Surgescript 
 
-//M(bilibili)
+***
 
-http-response https?:\/\/app\.bilibili\.com\/x\/ script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/bili.js
+//  M（网易漫画）
+http-response https?:\/\/api-163\.biliapi\.net\/getUserProfile script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/wymh.js,requires-body=true
+
+
 
 ***
 
@@ -32,6 +35,6 @@ http-response https?:\/\/i\.weread\.qq.com\/pay\/memberCardSummary\?pf script-pa
 http-response https?:\/\/app\.stoneread\.com/api\/apiClient\/index\?data script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/StoneRead.js
 
 ***
+//M(bilibili)
 
-//  M（网易漫画）
-http-response https?:\/\/api\.mh\.163.com\/getUserProfile script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/wymh.js
+http-response https?:\/\/app\.bilibili\.com\/x\/ script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/bili.js
