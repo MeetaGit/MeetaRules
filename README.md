@@ -25,17 +25,18 @@ http-response https?:\/\/api\.gkaorlz\.com\/api\/user\/get script-path=https://m
 http-response https?:\/\/mjappaz.yefu365.com\/index.php\/app\/ios\/ script-path= https://meetagit.github.io/MeetaRules/Surge/Scripting/aimeiju.js,requires-body=true
 
 ***
-
+### 下面脚本未适配surge 4 
 ~~// M(微信读书)
+
 http-response https?:\/\/i\.weread\.qq.com\/pay\/memberCardSummary\?pf script-path= https://meetagit.github.io/MeetaRules/Surge/Scripting/wechatread.js
-~~
 
 ***
-### 下面脚本未适配surge 4 
+
 ~~//  M (石头阅读）
+
 http-response https?:\/\/app\.stoneread\.com/api\/apiClient\/index\?data script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/StoneRead.js
-~~
+
 ***
 ~~//M(bilibili)
 
-~~http-response https?:\/\/app\.bilibili\.com\/x\/ script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/bili.js~~
+http-response https?:\/\/app\.bilibili\.com\/x\/ script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/bili.js
