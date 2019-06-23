@@ -9,7 +9,7 @@
 ***
 // M(酷我音乐SVIP)
 
-http-response https?:\/\/.*\.kuwo\.cn script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/.js,requires-body=true
+http-response https?:\/\/.*\.kuwo\.cn script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/kuwovip.js,requires-body=true
 
 
 ***
