@@ -7,6 +7,11 @@
 # Surgescript 
 
 ***
+// M(酷我音乐SVIP)
+http-response https?:\/\/.*\.kuwo\.cn script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/.js,requires-body=true
+
+
+***
 
 //  M（网易漫画）
 http-response https?:\/\/api-163\.biliapi\.net\/getUserProfile script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/wymh.js,requires-body=true
