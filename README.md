@@ -8,12 +8,14 @@
 
 ***
 // M(酷我音乐SVIP)
+
 http-response https?:\/\/.*\.kuwo\.cn script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/.js,requires-body=true
 
 
 ***
 
 //  M（网易漫画）
+
 http-response https?:\/\/api-163\.biliapi\.net\/getUserProfile script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/wymh.js,requires-body=true
 
 
@@ -22,11 +24,13 @@ http-response https?:\/\/api-163\.biliapi\.net\/getUserProfile script-path=https
 
 
 // M(西瓜视频:www.xg1.app)
+
 http-response https?:\/\/api\.gkaorlz\.com\/api\/user\/get script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/watermelonvideo.js,requires-body=true
 
 ***
 
 //  M(爱美剧:app.meiju2018.com)
+
 http-response https?:\/\/mjappaz.yefu365.com\/index.php\/app\/ios\/ script-path= https://meetagit.github.io/MeetaRules/Surge/Scripting/aimeiju.js,requires-body=true
 
 ***
