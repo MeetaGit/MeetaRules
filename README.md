@@ -9,6 +9,8 @@
 ***
 // 每时天气(Made by Meeta)
 
+cron "* * * *" script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/hourlyWeather.js
+
 
 ***
 // M(酷我音乐SVIP)
