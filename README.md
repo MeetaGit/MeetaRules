@@ -7,6 +7,10 @@
 # Surgescript 
 
 ***
+// 每时天气(Made by Meeta)
+
+
+***
 // M(酷我音乐SVIP)
 
 http-response https?:\/\/.*\.kuwo\.cn script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/kuwovip.js,requires-body=true
