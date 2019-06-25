@@ -32,7 +32,7 @@ $httpClient.get(hfapi, function(error, response, data){
 
 /* Hourly weather(Made by Meeta)
 文本编辑模式下复制粘贴
-cron "0 0 8-20/1 * * *" script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/m_Weather.js
+cron "0 0 8-20/1 * * *" script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/m_weather.js
 新采用了和风天气api,天气通知比前一个内容更丰富等等（由于免费接口限制每日访问量，清大家不要设置高频天气通知）
 向通知中心发送通知，Surge iOS 上需开启通知总开关；
 欢迎大家使用
