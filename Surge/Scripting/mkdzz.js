@@ -2,7 +2,9 @@
 快递追踪（Made by Meeta)
 完善中，还有较大改造空间
 
-cron "0 0 8-20/1 * * *" script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/mkdzz.js
+cron "0 0 8-20/1 * * *" script-path=mkdzz.js
+
+https://meetagit.github.io/MeetaRules/Surge/Scripting/mkdzz.js
 
 
 向通知中心发送通知，Surge iOS 上需开启通知总开关；
