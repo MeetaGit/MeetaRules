@@ -1,3 +1,29 @@
+/*
+快递追踪（Made by Meeta)
+完善中，还有较大改造空间
+
+cron "0 0 8-20/1 * * *" script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/mkdzz.js
+
+
+向通知中心发送通知，Surge iOS 上需开启通知总开关；
+欢迎大家使用
+欢迎关注TG频道:@meetashare
+
+常用快递公司代码：
+ ("顺丰" "shunfeng"),
+ ("中通" "zhongtong"),
+ ("申通" "shentong"),
+ ("圆通" "yuantong"),
+ ("汇通" "huitongkuaidi"),
+ ("韵达" "yunda"),
+ ("EMS" "ems"),
+ ("天天" "tiantian"),
+ ("德邦" "debangwuliu")
+*/
+
+
+
+
 // 请在下方""内填入您的快递单号
 var kdnum = "";
 
@@ -32,25 +58,3 @@ $httpClient.get(kdurl, function(error, response, data){
 }
 );
 
-/*
-快递追踪（Made by Meeta)
-完善中，还有较大改造空间
-
-cron "0 0 8-20/1 * * *" script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/mkdzz.js
-
-
-向通知中心发送通知，Surge iOS 上需开启通知总开关；
-欢迎大家使用
-欢迎关注TG频道:@meetashare
-
-常用快递公司代码：
- ("顺丰" "shunfeng"),
- ("中通" "zhongtong"),
- ("申通" "shentong"),
- ("圆通" "yuantong"),
- ("汇通" "huitongkuaidi"),
- ("韵达" "yunda"),
- ("EMS" "ems"),
- ("天天" "tiantian"),
- ("德邦" "debangwuliu")
-*/
