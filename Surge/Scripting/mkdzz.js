@@ -49,7 +49,7 @@ $httpClient.get(kdurl, function(error, response, data){
         $done();                   
     } else {
         var mm = getkdmatioin(data);
-        var title = "Meeta贴心提醒：您的"+mm[0]+"快递 Coming";
+        var title = "Meeta快递追踪：您的"+mm[0]+"快递 Coming";
         var subtitle = "更新时间："+mm[1];
         var mation = "最新信息："+mm[2];
         $notification.post(title, subtitle, mation);
