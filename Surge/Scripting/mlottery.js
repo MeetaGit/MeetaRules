@@ -1,5 +1,5 @@
 /*
-彩票助手（Made by Meeta)
+彩票开奖助手（Made by Meeta)
 
 
 cron "* * 22 * * *" script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/mlottery.js
