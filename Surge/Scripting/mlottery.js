@@ -2,7 +2,7 @@
 彩票助手（Made by Meeta)
 
 
-cron "* * 22 * * *" script-path=/mlottery.js
+cron "* * 22 * * *" script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/mlottery.js
 
 向通知中心发送通知，Surge iOS 上需开启通知总开关；
 欢迎大家使用,要中大奖哟！
