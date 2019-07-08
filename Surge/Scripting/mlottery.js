@@ -10,7 +10,6 @@ cron "* * 22 * * *" script-path=https://meetagit.github.io/MeetaRules/Surge/Scri
 */
 
 
-
 const k = ["qg1.ashx?lotCode=10039","qg1.ashx?lotCode=10040","qg2.ashx?lotCode=10041"];
 
 
