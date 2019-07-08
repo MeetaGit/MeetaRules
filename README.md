@@ -7,6 +7,11 @@
 # Surgescript 
 
 ***
+//彩票开奖助手（Made by Meeta)
+
+cron "0 22 * * *" script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/mlottery.js
+
+***
 // 每时天气(Made by Meeta)
 
 cron "* * * *" script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/hourlyWeather.js
