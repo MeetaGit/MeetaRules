@@ -7,7 +7,7 @@ http-response https?:\/\/p\.doras\.api\.vcinema\.cn\/v5.0\/user/  script-path=ht
 
 
 
-const path1 = "/user/"
+const path1 = "/user/";
 var body = $response.body;
 var url = $request.url;
 if (url.indexOf(path1) != -1){
