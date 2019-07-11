@@ -3,6 +3,7 @@
 1.文本编辑模式下复制粘贴
 http-response https?:\/\/api2\.gkaorlz\.com\:8080\/api\/user\/ script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/watermelonvideo.js,requires-body=true
 2.添加hostname = api2.gkaorlz.com
+欢迎关注TG频道:@meetashare
 */
 
 const path1 = "/api/user/get";
