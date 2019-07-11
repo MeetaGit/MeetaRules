@@ -3,6 +3,7 @@
 1.文本编辑模式下复制粘贴
 http-response https?:\/\/p\.doras\.api\.vcinema\.cn\/v5.0\/user/  script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/cushawmovie.js,requires-body=true
 2.添加hostname = *.api.vcinema.cn
+3.南瓜电影重新登录账号
 欢迎关注TG频道:@meetashare
 */
 
