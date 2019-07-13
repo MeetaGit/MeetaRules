@@ -8,6 +8,7 @@ http-response https?:\/\/ios\.xiaoxiaoapps\.com\/  script-path=https://meetagit.
 欢迎大家使用和反馈
 欢迎关注TG频道:@meetashare
 */
+
 const path1 = "/ucp/index?_t=";
 const path2 = "/vod/reqplay/";
 var body = $response.body;
@@ -19,8 +20,8 @@ if (url.indexOf(path1) != -1){
 	obj.data.uinfo["goldcoin"] = "999";
 	obj.data.uinfo["next_upgrade_need"] = "0";
 	obj.data.uinfo.curr_group["gicon"] = "V5";
-    obj.data.uinfo.curr_group["gid"] = "5";
-    obj.data.uinfo.curr_group["gname"] = "至尊VIP";
+	obj.data.uinfo.curr_group["gid"] = "5";
+	obj.data.uinfo.curr_group["gname"] = "至尊VIP";
 	obj.data.user["isvip"] = "1";
 	obj.data.user["nickname"] = "Meeta_share";
 	obj.data.user["avatar_url"] = "https://img.sdxaly.com/C1/avatar/044/44414.jpeg?t=1563021092";
@@ -31,11 +32,14 @@ if (url.indexOf(path1) != -1){
 }
 if (url.indexOf(path2) != -1){
   let obj = JSON.parse(body);
+  console.log(obj);
   obj.retcode = "0";
   obj.data.lastplayindex = "1";
-  
+  if(obj.data.hasOwnProperty("httpurl_preview")){
+  	var playurl = obj.data["httpurl_preview"];
+  	obj.data["httpurl"] = playurl;
+  };
   body = JSON.stringify(obj);
 }
 
 $done({body});
-
