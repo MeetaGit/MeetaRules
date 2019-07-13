@@ -1,3 +1,5 @@
+var body = $response.body;
+var url = $request.url;
 const path1 = "/api/user/get";
 const path2 = "/api/user/getAdv";
 const path3 = "api/user/getNotice";
@@ -24,4 +26,4 @@ if (url.indexOf(path3) != -1){
   body = JSON.stringify(obj);
 }
 
-$done(body)
+$done(body);
