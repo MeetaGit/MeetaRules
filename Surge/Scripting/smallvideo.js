@@ -8,7 +8,6 @@ http-response https?:\/\/ios\.xiaoxiaoapps\.com\/  script-path=https://meetagit.
 欢迎大家使用和反馈
 欢迎关注TG频道:@meetashare
 */
-
 const path1 = "/ucp/index?_t=";
 const path2 = "/vod/reqplay/";
 var body = $response.body;
@@ -34,6 +33,7 @@ if (url.indexOf(path2) != -1){
   let obj = JSON.parse(body);
   obj.retcode = "0";
   obj.data.lastplayindex = "1";
+  
   body = JSON.stringify(obj);
 }
 
