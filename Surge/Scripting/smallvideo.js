@@ -32,15 +32,15 @@ if (url.indexOf(path1) != -1){
 	body = JSON.stringify(obj);
 }
 if (url.indexOf(path2) != -1){
-  let obj = JSON.parse(body);
-  //console.log(obj);
-  obj.retcode = "0";
-  obj.data.lastplayindex = "1";
-  if(obj.data.hasOwnProperty("httpurl_preview")){
-  	var playurl = obj.data["httpurl_preview"];
-  	obj.data["httpurl"] = playurl;
-  };
-  body = JSON.stringify(obj);
+	let obj = JSON.parse(body);
+	//console.log(obj);
+	obj.retcode = "0";
+	obj.data.lastplayindex = "1";
+	if(obj.data.hasOwnProperty("httpurl_preview")){
+		var playurl = obj.data["httpurl_preview"];
+		obj.data["httpurl"] = playurl;
+	};
+	body = JSON.stringify(obj);
 }
 if (url.indexOf(path3) != -1){
 	let obj = JSON.parse(body);
