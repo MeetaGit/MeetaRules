@@ -11,6 +11,7 @@ http-response https?:\/\/ios\.xiaoxiaoapps\.com\/  script-path=https://meetagit.
 
 const path1 = "/ucp/index?_t=";
 const path2 = "/vod/reqplay/";
+const path3 = "/getGlobalData?_t="
 var body = $response.body;
 var url = $request.url;
 if (url.indexOf(path1) != -1){
@@ -32,7 +33,7 @@ if (url.indexOf(path1) != -1){
 }
 if (url.indexOf(path2) != -1){
   let obj = JSON.parse(body);
-  console.log(obj);
+  //console.log(obj);
   obj.retcode = "0";
   obj.data.lastplayindex = "1";
   if(obj.data.hasOwnProperty("httpurl_preview")){
@@ -41,5 +42,13 @@ if (url.indexOf(path2) != -1){
   };
   body = JSON.stringify(obj);
 }
+if (url.indexOf(path3) != -1){
+	let obj = JSON.parse(body);
+	obj.data.adgroups.global_adgroup_ad1[0].countdown = "1";
+	obj.data.adgroups.global_adgroup_ad1[0].pic = "http://ww1.sinaimg.cn/large/0076dY5Wgy1g36mmbdvv7j30gf0zkwf2.jpg";
+	obj.data.adgroups.global_adgroup_ad1[0].url = "";
+	body = JSON.stringify(obj);
+}
+
 
 $done({body});
