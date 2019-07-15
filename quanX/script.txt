@@ -1,2 +1,0 @@
-hostname = api2.gkaorlz.com
-^https?:\/\/api2\.gkaorlz\.com\:8080\/api\/user\/ url script-response-body https://meetagit.github.io/MeetaRules/quanX/xigua.js
