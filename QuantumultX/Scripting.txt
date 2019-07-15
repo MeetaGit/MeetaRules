@@ -1,4 +1,4 @@
-;Meeta_script脚本适配Quantumult X ing, TG频道:@meetashare
+;Meeta_script脚本适配Quantumult X ,其他脚本后续添加, 有问题欢迎反馈,TG频道: @meetashare
 
 hostname = *.api.vcinema.cn, api2.gkaorlz.com, *.kuwo.cn, ios.xiaoxiaoapps.com
 
