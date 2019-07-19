@@ -9,26 +9,28 @@ http-response https?:\/\/ios\.xiaoxiaoapps\.com\/  script-path=https://meetagit.
 欢迎关注TG频道:@meetashare
 */
 
-const path1 = "/ucp/index?_t=";
+const path1 = "/ucp/index";
 const path2 = "/vod/reqplay/";
-const path3 = "/getGlobalData?_t="
+const path3 = "/getGlobalData"
 var body = $response.body;
 var url = $request.url;
 if (url.indexOf(path1) != -1){
 	let obj = JSON.parse(body);
-	obj.data.uinfo["down_daily_remainders"] = "988";
-	obj.data.uinfo["play_daily_remainders"] = "988";
+	obj.data.uinfo["down_daily_remainders"] = "998";
+	obj.data.uinfo["play_daily_remainders"] = "998";
 	obj.data.uinfo["goldcoin"] = "999";
 	obj.data.uinfo["next_upgrade_need"] = "0";
 	obj.data.uinfo.curr_group["gicon"] = "V5";
 	obj.data.uinfo.curr_group["gid"] = "5";
-	obj.data.uinfo.curr_group["gname"] = "至尊VIP";
+	obj.data.uinfo.curr_group["minup"] = "20";
+	obj.data.uinfo.curr_group["gname"] = "尊贵VIP";
 	obj.data.user["isvip"] = "1";
 	obj.data.user["nickname"] = "Meeta_share";
 	obj.data.user["avatar_url"] = "https://img.sdxaly.com/C1/avatar/044/44414.jpeg?t=1563021092";
 	obj.data.user["avatar"] = "044/44414.jpeg?t=1563021092"
 	obj.data.user["goldcicon"] = "998";
 	obj.data.user["gicon"] = "V5";
+	obj.data.user["gid"] = "5";
 	body = JSON.stringify(obj);
 }
 if (url.indexOf(path2) != -1){
