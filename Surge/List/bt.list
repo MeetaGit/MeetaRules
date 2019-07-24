@@ -24,5 +24,5 @@ URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|fi
 // 迅雷
 URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
 
-//360有毒服务
+// 360有毒服务
 URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
