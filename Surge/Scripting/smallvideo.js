@@ -49,8 +49,19 @@ if (url.indexOf(path3) != -1){
 	obj.data.adgroups.global_adgroup_ad1[0].countdown = "1";
 	obj.data.adgroups.global_adgroup_ad1[0].pic = "http://ww1.sinaimg.cn/large/0076dY5Wgy1g36mmbdvv7j30gf0zkwf2.jpg";
 	obj.data.adgroups.global_adgroup_ad1[0].url = "";
+	obj.data.adgroups.global_adgroup_ad1[1].countdown = "1";
+	obj.data.adgroups.global_adgroup_ad1[1].pic = "http://ww1.sinaimg.cn/large/0076dY5Wgy1g36mmbdvv7j30gf0zkwf2.jpg";
+	obj.data.adgroups.global_adgroup_ad1[1].url = "";
+	obj.data.adgroups.global_adgroup_ad1[2].countdown = "1";
+	obj.data.adgroups.global_adgroup_ad1[2].pic = "http://ww1.sinaimg.cn/large/0076dY5Wgy1g36mmbdvv7j30gf0zkwf2.jpg";
+	obj.data.adgroups.global_adgroup_ad1[2].url = "";
+	obj.data.adgroups.global_adgroup_ad1[3].countdown = "1";
+	obj.data.adgroups.global_adgroup_ad1[3].pic = "http://ww1.sinaimg.cn/large/0076dY5Wgy1g36mmbdvv7j30gf0zkwf2.jpg";
+	obj.data.adgroups.global_adgroup_ad1[3].url = "";
+	obj.data.adgroups.global_adgroup_ad1[4].countdown = "1";
+	obj.data.adgroups.global_adgroup_ad1[4].pic = "http://ww1.sinaimg.cn/large/0076dY5Wgy1g36mmbdvv7j30gf0zkwf2.jpg";
+	obj.data.adgroups.global_adgroup_ad1[4].url = "";
 	body = JSON.stringify(obj);
 }
-
 
 $done({body});
