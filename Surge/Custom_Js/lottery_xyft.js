@@ -1,4 +1,5 @@
 // 幸运飞艇（Made for @zaxbaby）
+// cron "0 0/5 13-23 * * *" script-path=https://meetagit.github.io/MeetaRules/Surge/Custom_Js/lottery_xyft.js
 // 该api 由  @zaxbaby 私人购买,免费分享,所以请大家不要滥用
 // ps :未经允许不允许以此谋利
 // TG频道:@meetashare
