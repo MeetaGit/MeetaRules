@@ -1,4 +1,5 @@
-/* Made by Meeta(香蕉视频下载链接：http://tinyurl.com/y57j6hjg)
+/* 🍌️视频（Made by Meeta）
+🍌️下载链接：http://tinyurl.com/y57j6hjg
 
 1.文本编辑模式下复制粘贴
 http-response https?:\/\/ios\.fuliapps\.com\/ script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/bananavideo.js,requires-body=true
