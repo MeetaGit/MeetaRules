@@ -50,7 +50,3 @@ if (url.indexOf(path3) != -1){
 
 $done({body});
 
-/* Made by Meeta(bilibili)
-https?:\/\/app\.bilibili\.com\/x\/
-hostname = app.bilibili.com
-*/
