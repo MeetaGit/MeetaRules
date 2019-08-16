@@ -1,5 +1,6 @@
 /*
 云盘解析（Made by Meeta)
+使用方法:复制粘贴在 [Script] 下
 http-request https?:\/\/pan\.baidu\.com\/s\/ script-path=https://meetagit.github.io/MeetaRules/Surge/Scripting/yun_analyze.js,requires-body=1
 
 ps : 云盘解析脚本使用了度盘网页版解析
