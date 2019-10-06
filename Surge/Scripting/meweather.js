@@ -1,7 +1,7 @@
 const hfapi = "https://free-api.heweather.net/s6/weather/now?&location=auto_ip&key=5594d6910d9947e7a243c9f533a927f4"
 function getwmatioin(data){
     var obj = JSON.parse(data);
-    console.log(obj);
+    //console.log(obj);
     let city = obj.HeWeather6[0].basic["location"];
     let updatetime = obj.HeWeather6[0].update["loc"];
     let wea = obj.HeWeather6[0].now["cond_txt"];
