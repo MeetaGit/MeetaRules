@@ -91,11 +91,11 @@ $httpClient.get(weaqua, function(error, response, data){
 
 $httpClient.get(lifestyle, function(error, response, data){
     if (error){
-        //console.log(error);
+        console.log(error);
         $done();                   
     } else {
         var obj = JSON.parse(data);
-        console.log(obj); 
+        //console.log(obj); 
         var rng = Math.floor((Math.random()*8)+1);
         var ssd = obj.HeWeather6[0].lifestyle[0].brf;
         var life =  obj.HeWeather6[0].lifestyle[rng].txt;
